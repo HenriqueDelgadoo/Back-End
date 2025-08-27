@@ -10,7 +10,7 @@ class Cachorro{
     //Exercicio 5
     public function latir (){
         if ($this->latindo == True) {
-            echo "o $this->nome está latindo!\n";
+            echo "o $this->nome está latindo!\n";   
         }else{
             echo "O $this->nome não esta latindo!\n";
     }
@@ -31,7 +31,7 @@ class Cachorro{
 }
 }
 
-$cachorro1= new Cachorro("Zeus", 0.6 , false, "Macho", "Pintcher", true);
+$cachorro1 = new Cachorro("Zeus", 0.6 , false, "Macho", "Pintcher", true);
 $cachorro2 = new Cachorro("lua", 3 , true, "femea", "pitbull",false);
 $cachorro3 = new Cachorro("aurora", 6 , false, "femea", "rotweiller", true);
 $cachorro4 = new Cachorro("thor", 2 , true, "Macho", "são bernardo",false);
@@ -101,5 +101,3 @@ $cachorro1 -> territorio();
 $usuario1 -> Reservista();
 $usuario2 -> casamento();
 ?>
-
-
