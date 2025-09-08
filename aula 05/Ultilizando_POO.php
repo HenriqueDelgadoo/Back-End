@@ -24,5 +24,4 @@ $carro5 = new Carro ( "Chevrolet", "Camaro", 2012,false,  4);
 $carro6 = new Carro ( "Hyundai", "HB20", 2018,true,  2);
 
 
-
 ?>
