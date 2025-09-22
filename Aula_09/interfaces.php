@@ -79,6 +79,7 @@ class pentagono implements Forma{
     }
 }
 class hexagono implements Forma {
+    
     public function CalcularArea($lado, $altura, $raio){
         $area =  $lado * 6 *$altura /2;
         echo "A área do hexagono é $area u²\n";
