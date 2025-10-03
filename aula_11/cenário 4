@@ -1,0 +1,12 @@
+Cenário 4 – Ciclo da Vida
+Na Terra, pessoas podem engravidar, nascer, crescer, fazer escolhas e até doar
+sangue para ajudar outras.
+
+substantivos: Terra, pessoas, outras, sangue, escolhas 
+verbos: engravidar, nascer, crescer, fazer, doar, ajudar 
+
+class:pessoas
+Métodos: engravidar, nascer, crescer, tomarDecisão, doar
+
+Métodos para a classe pessoas:
+engravidar, crescer, nascer,tomarDecisão, doarSangue

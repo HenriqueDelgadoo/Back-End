@@ -1,0 +1,19 @@
+Cenário 2 – Heróis e Personagens
+O Batman, o Superman e o Homem-Aranha estão em uma missão. Eles precisam
+fazer treinamentos especiais no Cotil e, depois, irão ao shopping para doar
+brinquedos às crianças.
+
+Substantivos: Batman, superman, homem-aranha, crianças, brinquedos,shopping, cotil, missão
+verbos: estar, precisar, ir, doar, fazer
+
+classes: Heróis, pessoas, ambientes
+Métodos: estar, ir, doar, fazer 
+
+Métodos para a classe Heróis:
+estãoJuntos, fazerTreinamento, irDoar
+
+Métodos para a classe pessoas:
+receberPresente
+
+Métodos para a classe ambientes:
+fazerTreinamento

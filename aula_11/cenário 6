@@ -1,0 +1,18 @@
+Cenário 6 – Leia o enunciado do problema
+"Um sistema de cinema deve permitir que clientes comprem ingressos para
+sessões de filmes."
+
+substantivos: cinema, clientes, ingressos, filmes 
+verbos:permitir, comprar
+
+class: clientes, ingressos, sessões
+métodos: comprar, emitir
+
+Métodos para a classe clientes:
+realizarcompra, visualizarIngressos
+
+Métodos para a classe ingressos:
+atribuirCliente, possuirSessao
+
+Métodos para a classe sessões:
+atribuirFilme

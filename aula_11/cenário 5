@@ -1,0 +1,18 @@
+Cenário 5 – Analise o problema com linguagem natural
+"Um sistema de biblioteca deve permitir que usuários (alunos e professores)
+façam empréstimos de livros e revistas."
+
+substantivos: biblioteca, usuários, livros, revistas, sistema
+verbos: deve, permitir, empréstimos
+
+class: usuários, livros, revistas
+métodos: emprestimo
+
+Métodos para a classe usuários:
+solicitarEmprestimos
+
+Métodos para a classe livros: 
+EmprestarPara
+
+Métodos para a classe revistas:
+EmprestarPara
