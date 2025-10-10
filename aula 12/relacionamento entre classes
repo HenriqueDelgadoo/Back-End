@@ -1,9 +1,0 @@
-RELACIONAMENTO ENTRE CLASSES:
-
-- A referência para a análise será sempre os objetos daquela determina classe.
-
-ASSOCIAÇÃo:  Conexão entre duas cçasses, onde os objetos podem interagir compartilhando informações. Exemplo: pessoa e Empresa. Pode-se escolher um objeto de cada classe para a análise --> joaozinho trabalha na Mercedez. Nesse tipo de relacionamento as classes podem exitir independentente uma da outra.
-
-AGREGAÇÃO: Conexão entre duas classes, onde uma delas é uma parte de outra, mas o objeto "parte" pode existir independetemente do objeto "todo" exemplo: Carro e motorista -- > xavier pode dirigir um Del rey, sendo uma "parte" que compõe o carro como um todo, mas pode existir independetemente do carro.
-
-COMPOSIÇÃO: É a conexão mais forte das três, onde a existência do objeto "parte" é diretamente ligada ao objeto "todo".Isso quer dizer que se o todo deixa de existir, a "parte" também deixa. Exemplo: carro e motor.Relacionando os objetos  --> o carro Audi R8 pode conter um motor V112 5.2 aspirado, mas o motor deixa de existir se o carro também deixar de existir.

@@ -129,7 +129,7 @@ class CorpoDagua implements Atividade{
 }
 ?>
 
--- turista tem um reacionamento de associação com a localidade, ele está lá mas os dois existem independentemente--
+-- turista tem um relacionamento de associação com a localidade, ele está lá mas os dois existem independentemente--
 -- turista e comida tem um relacionamento de associação, ele come a comida, mas os dois exitem independentemente um do outro --
 -- turista e CorpoDagua, tem um relacionamento de associação, eles exitem independente um do outro mas interagem --
 -- Localidade e atividade, tem uma relação de agregação, atividade agrega a localidade, mas existem fora uma da outra --

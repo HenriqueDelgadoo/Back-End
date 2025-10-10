@@ -19,7 +19,7 @@ class SMS implements Mensagem {
     public $numero;
 
     public  function Enviar(){
-        echo " a mensagem foi enviada para o numero {$this->numero}";
+        echo "A mensagem foi enviada para o numero {$this->numero}\n";
     }
 }
     function notificar (mensagem $meio){
@@ -28,11 +28,9 @@ class SMS implements Mensagem {
 
 $email = new Email();
 $email->nome = "Henrique";
-$email->Enviar();
 
 $SMS = new SMS();
 $SMS->numero = "(19) 97420-1385";
-$SMS -> Enviar();
 
 notificar($email);
 notificar($SMS);
