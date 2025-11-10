@@ -1,0 +1,23 @@
+{
+    "coca-cola": {
+        "nome": "coca-cola",
+        "categoria": "Refrigerante",
+        "volume": "1L",
+        "valor": 3241,
+        "qtde": 32
+    },
+    "Àgua": {
+        "nome": "Àgua",
+        "categoria": "Água",
+        "volume": "400ml",
+        "valor": 40,
+        "qtde": 3
+    },
+    "Monster": {
+        "nome": "Monster",
+        "categoria": "Energético",
+        "volume": "473ml",
+        "valor": 12,
+        "qtde": 100
+    }
+}
