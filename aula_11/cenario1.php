@@ -10,7 +10,7 @@ class turista {
         $this->nome;
     }
     public function setNome($nome){
-        $this->nome = ucwords(strtolower($nome));
+        $this->nome = ucwords(strtolower($nome)); 
     }
     public function getLocal(){
         $this->local;
