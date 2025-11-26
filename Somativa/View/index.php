@@ -473,17 +473,16 @@
                         <td><?php echo $livro->getGenero(); ?></td>
                         <td>
                             <div class="acoes-form">
-                                <button type="button" class="editar" 
-                                    onclick="abrirModal(
-                                        '<?php echo $livro->getIdLivro(); ?>',
-                                        '<?php echo addslashes($livro->getNomeLivro()); ?>',
-                                        '<?php echo addslashes($livro->getDescricaoLivro()); ?>',
-                                        '<?php echo $livro->getQntde(); ?>',
-                                        '<?php echo addslashes($livro->getLocal()); ?>',
-                                        '<?php echo addslashes($livro->getAutor()); ?>',
-                                        '<?php echo $livro->getAno(); ?>',
-                                        '<?php echo addslashes($livro->getGenero()); ?>'
-                                    )">Editar</button>
+                                <button type="button" class="editar"
+                                    data-id="<?php echo $livro->getIdLivro(); ?>"
+                                    data-nome="<?php echo htmlspecialchars($livro->getNomeLivro(), ENT_QUOTES); ?>"
+                                    data-descricao="<?php echo htmlspecialchars($livro->getDescricaoLivro(), ENT_QUOTES); ?>"
+                                    data-qntde="<?php echo $livro->getQntde(); ?>"
+                                    data-local="<?php echo htmlspecialchars($livro->getLocal(), ENT_QUOTES); ?>"
+                                    data-autor="<?php echo htmlspecialchars($livro->getAutor(), ENT_QUOTES); ?>"
+                                    data-ano="<?php echo $livro->getAno(); ?>"
+                                    data-genero="<?php echo htmlspecialchars($livro->getGenero(), ENT_QUOTES); ?>"
+                                    onclick="abrirModalFromButton(this)">Editar</button>
                                 <form method="POST" style="display:inline;">
                                     <input type="hidden" name="acao" value="deletar">
                                     <input type="hidden" name="id_livro" value="<?php echo $livro->getIdLivro(); ?>">
@@ -520,6 +519,19 @@
                 </div>
 
                 <script>
+                                function abrirModalFromButton(btn) {
+                                    var d = btn.dataset;
+                                    document.getElementById('edit_id').value = d.id || '';
+                                    document.getElementById('edit_nome').value = d.nome || '';
+                                    document.getElementById('edit_descricao').value = d.descricao || '';
+                                    document.getElementById('edit_qntde').value = d.qntde || '';
+                                    document.getElementById('edit_local').value = d.local || '';
+                                    document.getElementById('edit_autor').value = d.autor || '';
+                                    document.getElementById('edit_ano').value = d.ano || '';
+                                    document.getElementById('edit_genero').value = d.genero || '';
+                                    document.getElementById('modalEditar').style.display = 'block';
+                                }
+
                     function abrirModal(id, nome, descricao, qntde, local, autor, ano, genero) {
                         document.getElementById('edit_id').value = id;
                         document.getElementById('edit_nome').value = nome;
